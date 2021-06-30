@@ -1,18 +1,32 @@
+.App{
+  margin-bottom: 20px;
+}
 .cardimg{
   border-radius: 25px;
   height: 200px;
 }
 .card{
   text-align: center;
-  margin: 130px;
-  margin-top: 45px;
-  margin-right: 100px;
+  margin-top: 120px;
+  margin-right: 80px;
+  margin-left: 300px;
   
 }
 .cardlist{
   display: flex;
   flex-wrap: wrap;
+
+  
 }
 .butt{
   text-align: center;
+}
+.detail{
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 480px;
+  font-style: italic;
 }

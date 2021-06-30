@@ -14,8 +14,8 @@ const Details = () => {
     }, [])
     return (
         <div>
-            <div>
-                <img src={details.strDrinkThumb} alt="..."/>
+            <div className="detail">
+                <img src={details.strDrinkThumb} alt="..." style={{borderRadius:'25px',width:'300px',marginTop:'40px'}} />
                 <h2>Name: {details.strDrink}</h2>
                 <h4>Ingredient1: {details.strIngredient1}</h4>
                 <h4>Ingredient2: {details.strIngredient2}</h4>
